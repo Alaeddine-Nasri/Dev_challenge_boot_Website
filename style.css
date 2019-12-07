@@ -82,7 +82,38 @@ html,body{
 .gif{
   max-width: 100%;
 }
+.social a{
+  font-size: 4.5em;
+  padding: 2rem;
+}
+.fa-facebook{
+  color: #3b5998;
+}
+.fa-instagram{
+  color: #517fa4;
+}
+.fa-twitter{
+  color: #00aced;
+}
+.fa-youtube{
+  color: #bb0000;
+}
 
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-youtube:hover{
+  color: #b5b5b5;
+}
+footer{
+  background-color: #3f3f3f ;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+hr.light{
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+}
 
 
 
@@ -91,13 +122,62 @@ html,body{
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
-
+  .social a{
+    font-size: 4em;
+    padding: 2em;
+  }
   }
 @media (max-width: 768px) {
-  
+  .carousel-caption{
+    top: 45%;
+  }
+  .carousel-caption h1{
+    font-size: 350%;
+
+  }
+  .carousel-caption h3{
+    font-size: 140%;
+    font-weight: 400;
+   padding-bottom: .2rem;
+  }  
+.carousel-caption .btn{
+  font-size: 95%;
+  padding: 8px 14px;
+}
+.display-4{
+  font-size: 200%;
+}
+.social a{
+  font-size: 2.4em;
+  padding: 1.2em;
+}
 }
 @media (max-width: 576px) {
-  
+  .carousel-caption{
+    top: 40%;
+  }
+  .carousel-caption h1{
+    font-size: 250%;
+
+  }
+  .carousel-caption h3{
+    font-size: 110%;
+
+  }  
+.carousel-caption .btn{
+  font-size: 90%;
+  padding: 4px 8px;
+}
+.carousel-indicators{
+  display: none;
+}
+.display-4{
+  font-size: 160%;
+}
+.social a{
+  font-size: 2em;
+  padding: .7em;
+}
 }
 
 
